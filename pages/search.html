@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="https://fom.in.ua/echo">
+        <table>
+            <tr>
+                <td>Тип кузова</td>
+                <td>
+                    <select name="car body">
+                        <option value="sedan">Седан</option>
+                        <option value="hatchback">Хэтчбек</option>
+                        <option value="crossover">Кроссовер</option>
+                        <option value="van">Фургон</option>
+                        <option value="minivan">Минивэн</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Марка авто</td>
+                <td>
+                    <select name="car brand">
+                        <option value="audi">AUDI</option>
+                        <option value="chevrolet">CHEVROLET</option>
+                        <option value="bmw">BMW</option>
+                        <option value="chrysler">CHRYSLER</option>
+                        <option value="jaguar">JAGUAR</option>
+                        <option value="land rover">LAND ROVER</option>
+                        <option value="mercedes">MERCEDES</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Страна производитель</td>
+                <td>
+                    <select name="producing country">
+                        <option value="china">Китай</option>
+                        <option value="usa">США</option>
+                        <option value="japan">Япония</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Цена от</td>
+                <td><input type="text" name="price from"> до <input type="text" name="price before"></td>
+            </tr>
+            <tr>
+                <td>Год выпуска от</td>
+                <td>
+                    <select name="year of issue">
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                    </select> до
+                    <select name="year of issue">
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Состояние</td>
+                <td>
+                    <input type="checkbox" name="broken car">Битая
+                    <input type="checkbox" name="on credit">В кредите
+                    <input type="checkbox" name="uncleared">Нерастаможенная
+                    <input type="checkbox" name="new">Новая
+                </td> 
+            </tr>
+            <tr>
+                <td>Тип топлива</td>
+                <td>
+                    <select name="fuel type">
+                        <option value="petrol">Бензин</option>
+                        <option value="diesel fuel">Дизельное топливо</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Тип коробки передач</td>
+                <td>
+                    <select name="transmission">
+                        <option value="automatic">Автомат</option>
+                        <option value="manual transmission">Механика</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Цвет</td>
+                <td>
+                    <input type="color" name="color">
+                </td> 
+            </tr>
+            <tr>
+                <td>Комфорт</td>
+                <td>
+                    <input type="checkbox" name="hatchway">Люк
+                    <input type="checkbox" name="leather interior">Кожаный салон
+                    <input type="checkbox" name="heated seats">Обогрев сидений
+                    <input type="checkbox" name="heated mirrors">Обогрев зеркал
+                    <input type="checkbox" name="parking sensors">Парктроник
+                    <input type="checkbox" name="power windows">Электростеклоподъемники
+                    <input type="checkbox" name="rear window heating">Обогрев заднего стекла
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Поиск">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
